@@ -8,24 +8,18 @@ Welcome to my **Generative AI Trainings** repository! This repository contains a
 ### 1. **Multi-AI Agent Systems with crewAI**
 This section contains projects exploring multi-agent systems built with **crewAI**. These systems demonstrate how specialized agents collaborate to complete complex tasks across various domains. Each project is organized into its own folder:
 
-#### Projects:
+#### Labs:
 - **Multi-Agent Collaboration for Financial Analysis**  
-  Develops a system of agents that monitor market data, identify trends, and assist with trading strategy development and risk analysis.
 
 - **Multi-Agent Customer Support**  
-  Automates customer support by using agents to handle queries, provide solutions, and escalate issues efficiently.
 
 - **Multi-Agent Job Application Crew**  
-  Aids job applicants with resume building, interview preparation, and application tracking through agent collaboration.
 
 - **Multi-Agent Research and Article Writing**  
-  Uses agents to conduct research, gather information, and draft well-structured articles collaboratively.
 
 - **Multi-Agent Tasks for Event Planning**  
-  Optimizes event planning through agents that handle scheduling, resource allocation, and logistics.
 
 - **Multi-Agent Tools for Customer Outreach**  
-  Implements outreach campaigns by automating communication, follow-ups, and feedback collection using agent collaboration.
 
 ---
 
