@@ -23,25 +23,6 @@ This section contains projects exploring multi-agent systems built with **crewAI
 
 ---
 
-### 2. **Introduction to Generative AI for Software Development**
-This course focuses on leveraging Generative AI to enhance the software development process. It teaches how to effectively integrate AI tools into various stages of development, from initial design to deployment, to boost efficiency and creativity. Below are the key takeaways from the course:
-- **Integrate Generative AI in Development**: Learn how to incorporate AI tools into your development workflow to improve productivity and foster creativity in your projects.
-- **Optimize Code Quality**: Enhance your coding practices, whether you're a beginner needing assistance with bug fixing or an experienced developer exploring innovative solutions.
-- **Experiment Quickly**: Use Large Language Models (LLMs) to speed up prototyping and testing, enabling faster iterations and quicker feature deployment.
-- **Understand How LLMs Work**: Gain insights into the inner workings of machine learning systems to use them more effectively as a developer.
-
----
-
-### 3. **freeCodeCamp: Generative AI Tutorials**
-Hands-on projects and resources from freeCodeCamp's Generative AI tutorials. This section is ideal for building a practical understanding of generative AI concepts and techniques. Key areas include:
-- Text generation and summarization.
-- AI-powered chatbot creation.
-- Basic image and content generation tasks.
-
----
-
----
-
 ## How to Use This Repository
 
 1. **Clone the Repository**  
