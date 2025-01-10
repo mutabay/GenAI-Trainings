@@ -19,18 +19,39 @@ This section contains projects exploring multi-agent systems built with **crewAI
 
 - **Multi-Agent Tasks for Event Planning**  
 
-- **Multi-Agent Tools for Customer Outreach**  
+- **Multi-Agent Tools for Customer Outreach**
+---
+  
+### 2. **Generative AI for Software Development Skill Certificate (Specialization)**
+Projects and materials from the **Generative AI for Software Development** specialization, focusing on enhancing software development with LLMs.
+
+#### What I Learned:
+- **Understanding LLMs**: How LLMs work and their application in development.
+- **Rapid Prototyping**: Techniques for quick prototyping and testing.
+- **Code Optimization**: Using LLMs to improve code quality and fix bugs.
+- **AI Collaboration**: Leveraging AI to enhance team collaboration.
+
+#### Courses under this specialization:
+
+#### Team Software Engineering with AI
+- Enhance team collaboration with LLMs
+- Generate comprehensive tests and documentation
+- Manage and debug software dependencies with AI
+
+#### AI-Powered Software and System Design
+- Design software architectures with AI insights
+- Create and optimize databases with LLMs
+- Apply advanced design patterns for code quality
 
 ---
+
 
 ## How to Use This Repository
 
 1. **Clone the Repository**  
    Use the following command to clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/GenerativeAI-Trainings.git
-
-cd GenerativeAI-Trainings/Multi-AI-Agent-Systems-with-crewAI/multiagent_collaboration_financial_analysis
+   git clone https://github.com/GenerativeAI-Trainings.git
 
 ## Tools and Technologies Used
 
