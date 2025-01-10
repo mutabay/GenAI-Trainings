@@ -1,0 +1,84 @@
+# Example 1 (Java)
+
+/**
+ * The BubbleSort class provides a static method to sort an array of integers
+ * using the bubble sort algorithm.
+ */
+public class BubbleSort {
+
+    /**
+     * Sorts the specified array of integers in ascending order using the bubble
+     * sort algorithm.
+     *
+     * The bubble sort algorithm compares adjacent elements and swaps them if they
+     * are in the wrong order. This process is repeated until the array is sorted.
+     *
+     * @param arr the array of integers to be sorted. This array is modified in-place.
+     */
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    /**
+     * The main method is the entry point of the program. It initializes an array
+     * of integers, sorts it using the bubbleSort method, and prints the sorted
+     * array to the standard output.
+     *
+     * @param args command line arguments (not used in this program).
+     */
+    public static void main(String[] args) {
+        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+        bubbleSort(arr);
+        System.out.println("Sorted array is:");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+
+# example 2 (Javascript)
+
+/**
+ * Sorts an array of numbers in ascending order using the bubble sort algorithm.
+ *
+ * The bubble sort algorithm repeatedly steps through the list, compares adjacent
+ * elements, and swaps them if they are in the wrong order. The process is repeated
+ * until the array is sorted. The algorithm has a time complexity of O(n^2) in the
+ * worst and average cases, making it inefficient on large lists. However, it is
+ * simple to understand and implement, and can be useful for educational purposes.
+ *
+ * @param {number[]} arr - The array of numbers to be sorted. This array is sorted in-place.
+ */
+function bubbleSort(arr) {
+    let n = arr.length; // Get the number of elements in the array
+    // Traverse through all array elements
+    for (let i = 0; i < n; i++) {
+        // Last i elements are already in place, no need to check them
+        for (let j = 0; j < n - i - 1; j++) {
+            // Compare the current element with the next element
+            if (arr[j] > arr[j + 1]) {
+                // Swap arr[j] and arr[j+1] if they are in the wrong order
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+// Example usage of bubbleSort function
+let arr = [64, 34, 25, 12, 22, 11, 90]; // Initialize an array of unsorted numbers
+console.log("Unsorted array:", arr); // Log the unsorted array to the console
+bubbleSort(arr); // Call the bubbleSort function to sort the array
+console.log("Sorted array is:", arr); // Log the sorted array to the console
