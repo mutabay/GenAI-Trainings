@@ -22,7 +22,7 @@ This section contains projects exploring multi-agent systems built with **crewAI
 - **Multi-Agent Tools for Customer Outreach**
 ---
   
-### 2. **Generative AI for Software Development Skill Certificate (Specialization)**
+### 2. **Generative AI for Software Development**
 Projects and materials from the **Generative AI for Software Development** specialization, focusing on enhancing software development with LLMs.
 
 #### What I Learned:
