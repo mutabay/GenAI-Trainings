@@ -50,22 +50,16 @@ LLM-powered software development specialization
 - Database optimization with LLMs
 - Advanced design patterns
 
-## 🛠️ Tools & Technologies
-
-- **crewAI** - Multi-agent system framework
-- **LangChain** - LLM integration
-- **Python** - Implementation language
-- **Jupyter Notebooks** - Interactive development
-- **OpenAI LLMs** - GPT-3.5-turbo, GPT-4
-- **Ollama** - Local LLM (llama3.2)
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/mutabay/GenAI-Trainings.git
-cd GenAI-Trainings
-```
-
 ---
 
-*Exploring generative AI through multi-agent systems and software development*
+### [MLOps](MLOps/)
+
+#### [Orchestrating Workflows for GenAI Applications](MLOps/Orchestrating%20Workflows%20for%20GenAI%20Applications/)
+
+GenAI workflows are orchestrated with Apache Airflow.
+
+**Topics Covered:**
+- A RAG prototype is converted into Airflow DAGs.
+- Pipelines are scheduled through time-based and data-aware triggers.
+- Parallel processing is implemented through dynamic task mapping.
+- Failures are handled through retries, trigger rules, and callbacks.
