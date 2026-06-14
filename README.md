@@ -54,6 +54,7 @@ LLM-powered software development specialization
 
 ### [MLOps](MLOps/)
 
+
 #### [Orchestrating Workflows for GenAI Applications](MLOps/Orchestrating%20Workflows%20for%20GenAI%20Applications/)
 
 GenAI workflows are orchestrated with Apache Airflow.
@@ -63,3 +64,15 @@ GenAI workflows are orchestrated with Apache Airflow.
 - Pipelines are scheduled through time-based and data-aware triggers.
 - Parallel processing is implemented through dynamic task mapping.
 - Failures are handled through retries, trigger rules, and callbacks.
+
+
+#### [LLMOps](MLOps/LLMOps%20-%20Google/)
+
+LLM application workflows are prepared for repeatable production execution.
+
+**Topics Covered:**
+- LLM and RAG workflows are organized as automated pipelines with Kubeflow.
+- Pipeline execution is scheduled and monitored.
+- Workflow dependencies and runtime parameters are configured.
+- Failures are managed through retries, callbacks, and task-level controls.
+
